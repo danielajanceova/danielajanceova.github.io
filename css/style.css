@@ -1,0 +1,476 @@
+
+body{
+.firstrow{
+background-color: rgb(228, 227, 224);;
+background-image: image(heroimage 2.jpg);
+max-width: 100%;
+
+
+
+
+.nav-link{
+    background-color: transparent;
+    color: #272222;
+    font-weight:550;
+    margin-top: 9px;
+    font-size:15px;
+    justify-content: end;
+
+}
+.nav-linkdani{
+    font-size: 50px;
+    color: #272222;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Fahkwang;
+}
+.nav-item{
+    background-color: transparent;
+    color: #272222;
+    font-weight:550;
+    margin-top: 9px;
+    font-size:22px;
+
+}
+
+.img-fluid{
+    height: auto;
+}
+
+   
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text-welcome{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    color: rgb(39, 34, 34);
+    font-size: 110px;
+    font-weight: 500;
+}
+.image-text {
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(39, 34, 34);
+    font-size: 28px;
+    font-family:Maku;
+}
+
+
+
+
+.image-text-third{
+    position: absolute;
+    top: 53%;
+    left: 23%;
+    right: 41%;
+    transform: translate(-50%, -50%);
+    color: rgb(39, 34, 34);
+    font-size: 24px;  
+    font-family:Maku;
+}
+
+.btn-secondary{
+    position: absolute;
+    top: 66%;
+    left: 16%;
+    right: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.float-logo-one{
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    right: 70%;
+    transform: translate(-50%, -50%);  
+    height: 45px;
+    
+}
+
+}
+.secondrow{
+background-color:rgb(147, 145, 138);
+position: relative;
+max-width: 1003%;
+height: 950px;
+
+.float-start{
+    height: 620px;
+    margin-top: 160px;
+    margin-left: 50px;
+    border: solid 20px rgb(228, 227, 224);
+    transform: rotate(-5deg);
+    
+}
+.float-end{
+    height:620px;
+    margin-top:160px ;
+    margin-right: 50px;
+    border: solid 20px rgb(228, 227, 224);
+    transform: rotate(5deg);
+}
+.image-text-gettoknowus{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    margin-top: 50Px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 88px; 
+    font-weight: bolder 2px;
+    text-decoration: overline;
+    stroke: 2px #272222;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .image-text-firstphoto{
+    position: absolute;
+    top: 43%;
+    left: 51%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    color: rgb(229, 229, 229);
+    font-size: 30px; 
+    font-family: Maku;
+    text-size-adjust:initial;
+    
+}
+.btn-read-more{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    margin-top: 48px;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    background-color:rgb(57, 54, 54)
+}
+}
+
+}
+.thirdrow{
+    background-color: rgb(228, 227, 224);
+    position: relative;
+    max-width: 1003%;
+    height: 950px;
+    
+
+.first-img-shop {
+    margin-top: 60px;
+    height: 450px;
+    place-content: 50px;
+}
+
+.second-img-shop{
+    margin-top: 60px;
+    place-content: 100px
+}
+.img-fluid{
+    height: 450px;
+    margin-top: 190px;
+    margin-left: 80px;
+}
+
+.img-fluid:hover {
+    background-color: white;
+}
+
+.image-text-shop-first{
+    position: absolute;
+    top: 63%;
+    left: 8%;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.image-text-shop-second{
+    position: absolute;
+    top: 63%;
+    left: 32%;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.image-text-shop-third{
+    position: absolute;
+    top: 63%;
+    left: 59%;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.image-text-shop-fourth{
+    position: absolute;
+    top: 63%;
+    left: 79%;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-shop-now-secondary{
+    position: absolute;
+    top: 79%;
+    left: 14%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    color: rgb(15, 9, 9);
+    font-size: 24px;
+    border: solid 1px rgb(2, 1, 1);
+    background-color: rgb(147, 145, 138);
+}
+.btn-shop-nowtwo-secondary{
+    position: absolute;
+    top: 79%;
+    left: 38%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    color:rgb(15, 9, 9);
+    font-size: 24px;
+    border: solid 1px rgb(2, 1, 1);
+    background-color: rgb(147, 145, 138);
+}
+.btn-shop-nowthree-secondary{
+    position: absolute;
+    top: 79%;
+    left: 62%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    color:rgb(15, 9, 9);
+    font-size: 24px;
+    border: solid 1px rgb(2, 1, 1);
+    background-color: rgb(147, 145, 138);
+}
+.btn-shop-nowfour-secondary{
+    position: absolute;
+    top: 79%;
+    left: 86%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    color: rgb(15, 9, 9);
+    font-size: 24px;
+    border: solid 1px rgb(2, 1, 1);
+    background-color: rgb(147, 145, 138);
+}
+
+.shop-text{
+    position: absolute;
+    top: 0%;
+    left: 17%;
+    font-size: 120px; 
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
+.fourthrow{
+    background-image: url(https://img.freepik.com/free-photo/different-women-standing-together_23-2149237869.jpg?w=2000&t=st=1700081670~exp=1700082270~hmac=2c3aa8afee5bd083222ddd481fd0e8823b73da4f9d36310372fc677d1c0d8a08);
+    position: relative;
+    max-width: 1003%;
+    height: 950px;
+
+
+.image-text-colection{
+    text-align: center;
+    left: 17%;
+    font-size: 140px; 
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-text-colection-two{
+ left: 50%;
+ top: 32%;
+ margin-left: 45%;
+ margin-top: 15%;
+ font-size: 40px; 
+ font-weight: bolder;
+ color: rgb(255, 255, 255);
+ text-decoration: underline;
+}
+}
+
+    .fifthrow{
+    background-color: rgb(228, 227, 224);
+    position: relative;
+    max-width: 1003%;
+    height: 450px;
+
+.float-logo{
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 10px;
+    height: 400px;
+}
+.text-contact{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-contact-one{
+    position: absolute;
+    top: 13%;
+    left: 80%;
+    margin-top: 50px;
+
+}
+.text-contact-two{
+    position: absolute;
+    top: 19%;
+    left: 80%;
+    margin-top: 50px;
+}
+.text-social{
+    position: absolute;
+    top: 2%;
+    left: 57%;
+    margin-top: 50px;
+    font-size: 32px;
+    font: weight 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-social-one{
+    position: absolute;
+    top: 13%;
+    left: 57%;
+    margin-top: 50px;
+}
+.text-social-two{
+    position: absolute;
+    top: 19%;
+    left: 57%;
+    margin-top: 50px;
+}
+.text-social-three{
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    margin-top: 50px;
+}
+.text-social-four{
+    position: absolute;
+    top: 31%;
+    left: 57%;
+    margin-top: 50px;
+}
+
+
+.text-location{
+    position: absolute;
+    top: 2%;
+    left: 33%;
+    margin-top: 50px;
+    font-size: 32px;
+    font: weight 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-location-one{
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    margin-top: 50px;
+}
+.text-location-two{
+    position: absolute;
+    top: 19%;
+    left: 33%;
+    margin-top: 50px;
+}
+.text-location-three{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    margin-top: 50px;
+}
+
+.form-label{
+    position: absolute;
+    top: 59%;
+    left: 33%;
+    margin-top: 50px;
+}
+
+.form-control{
+    position: absolute;
+    top: 65%;
+    left: 33%;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.btn-sumbit{
+    position: absolute;
+    top: 77%;
+    left: 33%;
+    margin-top: 50px;
+    font-weight:600;
+   
+}
+
+.text-email{
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: bold;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
