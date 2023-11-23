@@ -3,9 +3,7 @@ body{
 .firstrow{
 background-color: rgb(228, 227, 224);;
 max-width: 100%;
-
-
-
+}
 
 .nav-link{
     background-color: transparent;
@@ -127,7 +125,7 @@ max-width: 100%;
     
 }
 
-}
+
 .secondrow{
 background-color:rgb(147, 145, 138);
 position: relative;
@@ -208,6 +206,9 @@ height: 950px;
     background-color: rgb(228, 227, 224, 0.7);
 }
 
+.rowbeforesecond{
+    background-image: url(https://i.pinimg.com/564x/6b/91/a0/6b91a007f2a59b46c79e47ab64823bf8.jpg)
+}
 
 
 .image-text-shop-first{
