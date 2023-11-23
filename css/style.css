@@ -12,43 +12,53 @@ max-width: 100%;
     background-color: transparent;
     color: #272222;
     font-weight:550;
+    
     margin-top: 9px;
     font-size:15px;
-    justify-content: end;
-
-}
-.nav-linkdani{
-    font-size: 50px;
-    color: #272222;
-    font-weight: bold;
-    text-decoration: none;
-    font-family: Fahkwang;
-}
-.nav-item{
-    background-color: transparent;
-    color: #272222;
-    font-weight:550;
-    margin-top: 9px;
-    font-size:22px;
+    justify-content: center;
 
 }
 
-.img-fluid{
-    height: auto;
+
+.bi-bag{
+    position:absolute;
+    margin-left: 1600px;
+    margin-top: 30px;
+    align-items: end;
+    cursor: pointer;
+    font-size: 80px;
+    transition: 0.5s;
+    position: absolute;
+    transform: translate(-50%, -50%);  
+    height: 95px;
+}
+.bi-heart{
+    position:absolute;
+    margin-left: 1500px;
+    margin-top: 30px;
+    align-items: end;
+    cursor: pointer;
+    font-size: 80px;
+    transition: 0.5s;
+    position: absolute;
+    transform: translate(-50%, -50%);  
+    height: 95px;  
 }
 
-   
-
-
-.image-container {
-    position: relative;
-    text-align: center;
+.bi-person{
+    position:absolute;
+    margin-left: 1400px;
+    margin-top: 30px;
+    align-items: end;
+    cursor: pointer;
+    font-size: 80px;
+    transition: 0.5s;
+    position: absolute;
+    transform: translate(-50%, -50%);  
+    height: 95px;
 }
 
-.image-container img {
-    width: 100%;
-    height: auto;
-}
+
 
 .image-text-welcome{
     position: absolute;
@@ -82,6 +92,7 @@ max-width: 100%;
     color: rgb(39, 34, 34);
     font-size: 24px;  
     font-family:Maku;
+    cursor: pointer;
 }
 
 .btn-secondary{
@@ -101,6 +112,7 @@ max-width: 100%;
     right: 70%;
     transform: translate(-50%, -50%);  
     height: 45px;
+    cursor: pointer;
     
 }
 
@@ -171,30 +183,22 @@ height: 950px;
     height: 950px;
     
 
-.first-img-shop {
-    margin-top: 60px;
-    height: 450px;
-    place-content: 50px;
-}
 
-.second-img-shop{
-    margin-top: 60px;
-    place-content: 100px
-}
 .img-fluid{
     height: 450px;
     margin-top: 190px;
     margin-left: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+
 }
 
-.img-fluid:hover {
-    background-color: white;
-}
+
 
 .image-text-shop-first{
     position: absolute;
     top: 63%;
-    left: 8%;
+    left: 7%;
     margin-top: 50px;
     font-size: 40px;
     font-weight: bold;
@@ -205,7 +209,7 @@ height: 950px;
 .image-text-shop-second{
     position: absolute;
     top: 63%;
-    left: 32%;
+    left: 31%;
     margin-top: 50px;
     font-size: 40px;
     font-weight: bold;
@@ -216,7 +220,7 @@ height: 950px;
 .image-text-shop-third{
     position: absolute;
     top: 63%;
-    left: 59%;
+    left: 57%;
     margin-top: 50px;
     font-size: 40px;
     font-weight: bold;
@@ -226,7 +230,7 @@ height: 950px;
 .image-text-shop-fourth{
     position: absolute;
     top: 63%;
-    left: 79%;
+    left: 77%;
     margin-top: 50px;
     font-size: 40px;
     font-weight: bold;
@@ -236,7 +240,7 @@ height: 950px;
 .btn-shop-now-secondary{
     position: absolute;
     top: 79%;
-    left: 14%;
+    left: 13%;
     margin-top: 50px;
     transform: translate(-50%, -50%);
     color: rgb(15, 9, 9);
@@ -247,7 +251,7 @@ height: 950px;
 .btn-shop-nowtwo-secondary{
     position: absolute;
     top: 79%;
-    left: 38%;
+    left: 37%;
     margin-top: 50px;
     transform: translate(-50%, -50%);
     color:rgb(15, 9, 9);
@@ -258,7 +262,7 @@ height: 950px;
 .btn-shop-nowthree-secondary{
     position: absolute;
     top: 79%;
-    left: 62%;
+    left: 61%;
     margin-top: 50px;
     transform: translate(-50%, -50%);
     color:rgb(15, 9, 9);
@@ -269,7 +273,7 @@ height: 950px;
 .btn-shop-nowfour-secondary{
     position: absolute;
     top: 79%;
-    left: 86%;
+    left: 85%;
     margin-top: 50px;
     transform: translate(-50%, -50%);
     color: rgb(15, 9, 9);
@@ -289,165 +293,172 @@ height: 950px;
 }
 }
 .fourthrow{
-    background-image: url(https://img.freepik.com/free-photo/different-women-standing-together_23-2149237869.jpg?w=2000&t=st=1700081670~exp=1700082270~hmac=2c3aa8afee5bd083222ddd481fd0e8823b73da4f9d36310372fc677d1c0d8a08);
+    background-image: url(https://i.pinimg.com/564x/21/04/75/2104754a20387a1d6d6c9a0ebc37b508.jpg);
     position: relative;
     max-width: 1003%;
-    height: 950px;
+    height: 650px;
+ 
 
 
-.image-text-colection{
-    text-align: center;
-    left: 17%;
-    font-size: 140px; 
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.image-text-colection-two{
- left: 50%;
- top: 32%;
- margin-left: 45%;
- margin-top: 15%;
- font-size: 40px; 
- font-weight: bolder;
- color: rgb(255, 255, 255);
- text-decoration: underline;
-}
+
+    .text-center{
+    position: absolute;
+    top: 33%;
+    left: 24%;
+    margin-top: 50px;
+    font-size: 120px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .text-center-shop-now{
+     position: absolute;
+     top: 63%;
+     left: 44%;
+     margin-top: 50px;
+     font-size: 40px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif; 
+     text-decoration: underline;
+     cursor: pointer;
+    }
+
+
 }
 
-    .fifthrow{
+.fifthrow{
     background-color: rgb(228, 227, 224);
     position: relative;
     max-width: 1003%;
-    height: 450px;
+    height: 575px;
 
-.float-logo{
-    margin-top: 20px;
-    margin-left: 110px;
-    font-size: 10px;
-    height: 400px;
-}
-.text-contact{
-    position: absolute;
-    top: 2%;
-    left: 80%;
-    margin-top: 50px;
-    font-size: 32px;
-    font-weight: 400px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.text-contact-one{
-    position: absolute;
-    top: 13%;
-    left: 80%;
-    margin-top: 50px;
+    .float-logo{
+        margin-top: 20px;
+        margin-left: 110px;
+        font-size: 10px;
+        height: 400px;
+    }
+    .text-contact{
+        position: absolute;
+        top: 2%;
+        left: 80%;
+        margin-top: 50px;
+        font-size: 32px;
+        font-weight: 400px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .text-contact-one{
+        position: absolute;
+        top: 13%;
+        left: 80%;
+        margin-top: 50px;
 
-}
-.text-contact-two{
-    position: absolute;
-    top: 19%;
-    left: 80%;
-    margin-top: 50px;
-}
-.text-social{
-    position: absolute;
-    top: 2%;
-    left: 57%;
-    margin-top: 50px;
-    font-size: 32px;
-    font: weight 400px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    }
+    .text-contact-two{
+        position: absolute;
+        top: 19%;
+        left: 80%;
+        margin-top: 50px;
+    }
+    .text-social{
+        position: absolute;
+        top: 2%;
+        left: 57%;
+        margin-top: 50px;
+        font-size: 32px;
+        font: weight 400px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-.text-social-one{
-    position: absolute;
-    top: 13%;
-    left: 57%;
-    margin-top: 50px;
-}
-.text-social-two{
-    position: absolute;
-    top: 19%;
-    left: 57%;
-    margin-top: 50px;
-}
-.text-social-three{
-    position: absolute;
-    top: 25%;
-    left: 57%;
-    margin-top: 50px;
-}
-.text-social-four{
-    position: absolute;
-    top: 31%;
-    left: 57%;
-    margin-top: 50px;
-}
+    .text-social-one{
+        position: absolute;
+        top: 13%;
+        left: 57%;
+        margin-top: 50px;
+    }
+    .text-social-two{
+        position: absolute;
+        top: 19%;
+        left: 57%;
+        margin-top: 50px;
+    }
+    .text-social-three{
+        position: absolute;
+        top: 25%;
+        left: 57%;
+        margin-top: 50px;
+    }
+    .text-social-four{
+        position: absolute;
+        top: 31%;
+        left: 57%;
+        margin-top: 50px;
+    }
 
 
-.text-location{
-    position: absolute;
-    top: 2%;
-    left: 33%;
-    margin-top: 50px;
-    font-size: 32px;
-    font: weight 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    .text-location{
+        position: absolute;
+        top: 2%;
+        left: 33%;
+        margin-top: 50px;
+        font-size: 32px;
+        font: weight 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-.text-location-one{
-    position: absolute;
-    top: 13%;
-    left: 33%;
-    margin-top: 50px;
-}
-.text-location-two{
-    position: absolute;
-    top: 19%;
-    left: 33%;
-    margin-top: 50px;
-}
-.text-location-three{
-    position: absolute;
-    top: 25%;
-    left: 33%;
-    margin-top: 50px;
-}
+    .text-location-one{
+        position: absolute;
+        top: 13%;
+        left: 33%;
+        margin-top: 50px;
+    }
+    .text-location-two{
+        position: absolute;
+        top: 19%;
+        left: 33%;
+        margin-top: 50px;
+    }
+    .text-location-three{
+        position: absolute;
+        top: 25%;
+        left: 33%;
+        margin-top: 50px;
+    }
 
-.form-label{
-    position: absolute;
-    top: 59%;
-    left: 33%;
-    margin-top: 50px;
-}
+    .form-label{
+        position: absolute;
+        top: 59%;
+        left: 33%;
+        margin-top: 50px;
+    }
 
-.form-control{
-    position: absolute;
-    top: 65%;
-    left: 33%;
-    margin-top: 50px;
-    width: 500px;
-}
+    .form-control{
+        position: absolute;
+        top: 65%;
+        left: 33%;
+        margin-top: 50px;
+        width: 500px;
+    }
 
-.btn-sumbit{
-    position: absolute;
-    top: 77%;
-    left: 33%;
-    margin-top: 50px;
-    font-weight:600;
-   
-}
+    .btn-sumbit{
+        position: absolute;
+        top: 77%;
+        left: 33%;
+        margin-top: 50px;
+        font-weight:600;
+    
+    }
 
-.text-email{
-    position: absolute;
-    top: 52%;
-    left: 33%;
-    margin-top: 50px;
-    font-size: 17px;
-    font-weight: bold;
+    .text-email{
+        position: absolute;
+        top: 52%;
+        left: 33%;
+        margin-top: 50px;
+        font-size: 17px;
+        font-weight: bold;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 }
 
 
